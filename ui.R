@@ -11,7 +11,10 @@ dashboardPage(
   dashboardHeader(title = "320 US Mass Shootings", titleWidth = 350,
                   tags$li(class="dropdown",
                           tags$a(href="https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years", 
-                                 "Data Link", style = "font-size:90%;color:rgb(24,33,48);font-weight:bold;"))),
+                                 "Get Data", style = "font-size:90%;color:rgb(24,33,48);font-weight:bold;")),
+                  tags$li(class="dropdown",
+                          tags$a(href="https://github.com/zblumenf/US_Mass_Shooting_Map_Animation", 
+                                 "Get Code", style = "font-size:90%;color:rgb(24,33,48);font-weight:bold;"))),
   dashboardSidebar( width = 10),
   dashboardBody(  #tags$head( 
    # tags$style(HTML(".fa { font-size: 36px; }"))
